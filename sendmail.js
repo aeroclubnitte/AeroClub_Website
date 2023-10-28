@@ -15,7 +15,7 @@ module.exports.sendmail=async (name,email,subject,explain)=>{
 
     })
     const mailoptions={
-        from:"infoaeroclub@gmail.com",
+        from:"queriesaeroclubnitte@gmail.com",
         to:`aeroclubnitte@nmamit.in`,
         subject:`${subject}`,
         text:`Name: ${name}
