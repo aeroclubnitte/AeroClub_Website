@@ -58,5 +58,5 @@ app.post("/mail",(req,res)=>{
 })
 
 app.listen(port, () => {
-    console.log("Conenction established with the required port number");
+    console.log(`Connection is established with the required port number ${port}`);
   });
